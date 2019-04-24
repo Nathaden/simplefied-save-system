@@ -6,7 +6,7 @@ var express = require('express'),
     save = require('./save')
 
 // Set default API response
-router.post('/new/:gameName', register.newGame)
+router.post('/game/:gameName', register.newGame)
 router.get('/game/:gameId', register.getGame)
 router.get('/:gameId', load.all);
 router.get('/:gameId/:userId', load.user);
