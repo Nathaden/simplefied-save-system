@@ -28,10 +28,23 @@ npm run start
 
 ## Usage
 
-Register a game :
+##### Registering a game :
 ```
-url/game/new_game_name @POST
+[URL]/game/:new_game_name @POST
 ```
+It will return a unique id corresponding to the game, keep it preciously.
+
+##### Saving :
+```
+[URL]/:game_id/:user_id/:data @POST
+```
+(Soon to be changed)
+
+##### Loading :
+```
+[URL]/:game_id/:user_id @GET
+```
+
 
 ## Authors
 
