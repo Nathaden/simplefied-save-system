@@ -1,6 +1,6 @@
 # Simplified Save System
 
-Simplified Save System or SSS is a NodeJS server that can be used to save any type of date for all tour game projects.
+Simplified Save System is a NodeJS server that can be used to save any type of data for all your game projects.
 
 ## Getting Started
 
